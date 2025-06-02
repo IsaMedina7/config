@@ -49,8 +49,8 @@ text_light = "#000000" # bl: dark gray
 
 # Pink mustache icon for the prompt
 [character]
-success_symbol = "[🐺](fg:green)"
-error_symbol = "[𝕏](fg:red)"
+success_symbol = "[  ](fg:green)"
+error_symbol = "[  ](fg:red)"
 vimcmd_symbol = "[N](bold red)"
 vimcmd_replace_one_symbol = "[R](bold peach)"
 vimcmd_visual_symbol = "[V](bold mauve)"
@@ -58,7 +58,7 @@ vimcmd_visual_symbol = "[V](bold mauve)"
 [username]
 style_user = 'bold blue'
 style_root = 'bold red'
-format = '[🐺 $user](fg:$style) '
+format = '[ $user](fg:$style) '
 disabled = false
 show_always = true
 

@@ -2,7 +2,7 @@ return {
   "brianhuster/autosave.nvim",
   event = { "InsertLeave", "TextChanged" },
   opts = {
-    enabled = true,
+    enabled = false,
     execution_message = {
       enabled = true,
       message = function()

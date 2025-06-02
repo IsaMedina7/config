@@ -84,14 +84,30 @@ return {
     requires = { "nvim-tree/nvim-web-devicons", opt = true }, -- Optional dependency for icons
     opts = {
       options = {
-        -- theme = "oldworld", -- Set the theme for lualine
+        -- theme = "kanagawa", -- Set the theme for lualine
+        theme = "oldworld", -- Set the theme for lualine
         icons_enabled = true, -- Enable icons in the statusline
+
+        component_separators = { left = "", right = "" }, -- Set component separators
+        section_separators = { left = " ", right = " 󰬸 " }, -- Set section separators
+        -- section_separators = { left = " ", right = "  " }, -- Set section separators
       },
       sections = {
         lualine_a = {
           {
             "mode", -- Display the current mode
-            icon = "📡", -- Set the icon for the mode
+            -- icon = "⛩ ", -- Set the icon for the mode
+            -- icon = "👾", -- Set the icon for the mode
+            -- icon = "🎮", -- Set the icon for the mode
+            -- icon = "🕹", -- Set the icon for the mode
+            -- icon = "󱃄 ", -- Set the icon for the mode
+            -- icon = "󰭟 ", -- Set the icon for the mode
+            -- icon = "󰂧 ", -- Set the icon for the mode
+            -- icon = " ", -- Set the icon for the mode
+            -- icon = " ", -- Set the icon for the mode
+            -- icon = " ", -- Set the icon for the mode
+            -- icon = "󰊠 ", -- Set the icon for the mode
+            icon = " ", -- Set the icon for the mode
           },
         },
       },

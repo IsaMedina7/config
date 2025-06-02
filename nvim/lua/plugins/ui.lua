@@ -89,8 +89,9 @@ return {
         icons_enabled = true, -- Enable icons in the statusline
 
         component_separators = { left = "", right = "" }, -- Set component separators
-        section_separators = { left = " ", right = " 󰬸 " }, -- Set section separators
         -- section_separators = { left = " ", right = "  " }, -- Set section separators
+        -- section_separators = { left = " ", right = " 󰬸 " }, -- Set section separators
+        section_separators = { left = " ", right = " 󰬸 " }, -- Set section separators
       },
       sections = {
         lualine_a = {

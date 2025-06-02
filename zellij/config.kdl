@@ -382,7 +382,7 @@ themes {
     }
 }
 
-theme "rose_pine_moon"
+theme "kanagawa_dragon"
 
 // Choose the base input mode of zellij.
 // Default: normal

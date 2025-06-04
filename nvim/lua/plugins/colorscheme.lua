@@ -38,8 +38,10 @@ return {
       priority = 1000,
       config = function(plugin)
         vim.opt.rtp:append(plugin.dir .. "/packages/neovim")
+        -- vim.cmd([[colorscheme aura-soft-dark]])
       end,
     },
+
     {
       "AlexvZyl/nordic.nvim",
       lazy = false,
@@ -170,13 +172,23 @@ return {
       },
     },
     {
+      "tiagovla/tokyodark.nvim",
+      opts = {
+        -- custom options here
+      },
+      config = function(_, opts)
+        require("tokyodark").setup(opts) -- calling setup is optional
+        -- vim.cmd([[colorscheme tokyodark]])
+      end,
+    },
+    {
       -- LazyVim configuration
       "LazyVim/LazyVim",
       opts = {
         -- Set the default color scheme
         --colorscheme = "kanagawa-dragon",
+        colorscheme = "tokyodark",
         -- colorscheme = "nordic",
-        colorscheme = "tokyonight-night",
       },
     },
   },

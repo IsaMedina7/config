@@ -15,9 +15,9 @@ return {
       },
     },
     completion = {
-      -- blink = true,
-      nvim_cmp = true, -- Use nvim-cmp for completion
-      min_chars = 2, -- Minimum characters to trigger completion
+      blink = true,
+      -- nvim_cmp = true, -- Use nvim-cmp for completion
+      -- min_chars = 2, -- Minimum characters to trigger completion
     },
     notes_subdir = "limbo", -- Subdirectory for notes
     new_notes_location = "limbo",

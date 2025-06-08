@@ -186,9 +186,9 @@ return {
       "LazyVim/LazyVim",
       opts = {
         -- Set the default color scheme
-        --colorscheme = "kanagawa-dragon",
-        colorscheme = "tokyodark",
-        -- colorscheme = "nordic",
+        -- colorscheme = "kanagawa-dragon",
+        -- colorscheme = "tokyodark",
+        colorscheme = "nordic",
       },
     },
   },

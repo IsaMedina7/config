@@ -41,6 +41,12 @@ vim.keymap.set("n", "<leader>ol", "<cmd>ObsidianLinks<CR>", { desc = "Show Obsid
 vim.keymap.set("n", "<leader>on", "<cmd>ObsidianNew<CR>", { desc = "Create New Note" })
 vim.keymap.set("n", "<leader>os", "<cmd>ObsidianSearch<CR>", { desc = "Search Obsidian" })
 vim.keymap.set("n", "<leader>oq", "<cmd>ObsidianQuickSwitch<CR>", { desc = "Quick Switch" })
+vim.keymap.set("n", "<leader>of", function()
+  -- Format the current buffer using Prettier
+  vim.cmd("silent! write") -- Save the file first
+  vim.cmd("silent! FormatWrite") -- Format and save using conform.nvim
+  vim.notify("Markdown formatted!", vim.log.levels.INFO)
+end, { desc = "Format Markdown" })
 
 ----- OIL -----
 vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })

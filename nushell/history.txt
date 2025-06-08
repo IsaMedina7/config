@@ -1,0 +1,11 @@
+clear
+ls
+exit
+clear
+nvim
+clear
+ls
+cd ..
+exit
+ls
+exit

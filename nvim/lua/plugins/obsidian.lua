@@ -11,7 +11,7 @@ return {
     workspaces = {
       {
         name = "mikaela-notes", -- Name of the workspace
-        path = "/mnt/c/Users/isabe/OneDrive/Documentos/mikaela-notes/", -- Path to the vault
+        path = "/mnt/c/Users/isabe/Documents/ObsidianVault/mikaela-notes/", -- Path to the vault
       },
     },
     completion = {

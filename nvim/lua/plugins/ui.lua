@@ -221,7 +221,9 @@ return {
     "folke/snacks.nvim",
     opts = {
       notifier = {},
-      image = {},
+      image = {
+        enabled = false, -- Deshabilitamos la previsualización flotante de imágenes
+      },
       picker = {
         matcher = {
           fuzzy = true,

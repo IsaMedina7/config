@@ -1,11 +1,3 @@
-clear
-ls
-exit
-clear
-nvim
-clear
-ls
-cd ..
-exit
-ls
-exit
+history -c
+fc -R
+killall zsh

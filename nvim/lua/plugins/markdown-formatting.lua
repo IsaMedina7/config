@@ -23,15 +23,17 @@ return {
       },
       formatters = {
         prettier = {
-          -- Configuración específica para evitar MD013
+          -- Configuración específica para mantener los saltos de línea en Obsidian
           args = {
-            "--prose-wrap", "always",
-            "--print-width", "80",
-            "--parser", "markdown"
+            "--prose-wrap",
+            "preserve",
+            "--print-width",
+            "80",
+            "--parser",
+            "markdown",
           },
         },
       },
     },
   },
 }
-

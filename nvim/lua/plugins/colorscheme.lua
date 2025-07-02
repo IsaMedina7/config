@@ -188,7 +188,7 @@ return {
         -- Set the default color scheme
         -- colorscheme = "kanagawa-dragon",
         -- colorscheme = "tokyodark",
-        colorscheme = "nordic",
+        colorscheme = "tokyonight-storm",
       },
     },
   },

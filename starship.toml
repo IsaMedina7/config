@@ -106,7 +106,7 @@ version_format = "${raw}"
 [java]
 format = '[[ $symbol ($version) ](fg:#FF5D62)]($style)'
 version_format = "${raw}"
-symbol = " "
+symbol = "󰬷"
 disabled = false
 
 [c]
@@ -122,15 +122,16 @@ disabled = false
 
 [bun]
 version_format = "${raw}"
+symbol = ""
 format = '[[ $symbol ($version) ](fg:#DCD7BA)]($style)'
 disabled = false
 
 [nodejs]
-symbol = ""
+symbol = ""
 format = '[[ $symbol ($version) ](fg:#87a987)]($style)'
 
 [rust]
-symbol = ""
+symbol = "󱘗"
 format = '[[ $symbol ($version) ](fg:#FF5D62)]($style)'
 
 [golang]
